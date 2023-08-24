@@ -1,7 +1,7 @@
 # LocalWebServer
 This software is part of the *Covmatic* project.  
 Visit the website https://covmatic.org/ for more documentation and information.
-
+ 
 ## Table of Contents
 * [Installation](#installation)
 * [Setup](#setup)
