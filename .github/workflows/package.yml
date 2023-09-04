@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     container: python:3.7
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: System package install
       run: |
         apt-get update
@@ -35,7 +35,7 @@ jobs:
     container: python:3.7
     needs: build
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: System package install
       run: |
         apt-get update
